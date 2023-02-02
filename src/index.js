@@ -11,7 +11,7 @@ import _ from 'lodash';
 
  document.body.appendChild(component());
 
- function component2() {
+ function componentH1() {
   const elementH1 = document.createElement('h1');
   const textNodeContentForH1 = "Mike's Cozy Restaurant";
   const textNodeForH1 = document.createTextNode(textNodeContentForH1);
@@ -20,9 +20,27 @@ import _ from 'lodash';
 
  }
  
- const div1 = document.querySelector("div");
+ 
+ 
+ console.log(componentH1());
+ document.body.appendChild(componentH1());
 
- div1.appendChild(component2());
+//  const elementDiv1 = document.getElementById("content");
+ 
+//  function componentDiv1() {
+   
+//   const textNodeForDiv1 = document.createTextNode("Mike invites you to enjoy a healthy meal with loved ones at his restaurant. All colors, ages, genders are welcome. Tasty food, healthy food, and a comfortable, safe space to relax.");
+   
+//    return elementDiv1.appendChild(textNodeForDiv1);
+//  }
+ 
 
+//  elementDiv1.appendChild(componentDiv1());
 
+//  if (div1) {
+//    console.log(div1),
+
+//  div1.appendChild(component2());
+
+//  };
  console.log ("Hello, earthling")
