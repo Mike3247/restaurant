@@ -11,7 +11,8 @@
 
 //  document.body.appendChild(component());
 
- function componentH1() {
+ 
+function componentH1() {
   const elementH1 = document.createElement('h1');
   const textNodeContentForH1 = "Mike's Cozy Restaurant";
   const textNodeForH1 = document.createTextNode(textNodeContentForH1);
@@ -19,7 +20,6 @@
   return elementH1.appendChild(textNodeForH1);
 
  }
- 
  
  
  console.log(componentH1());
@@ -37,10 +37,5 @@
 
  elementDiv1.appendChild(componentDiv1());
 
-//  if (div1) {
-//    console.log(div1),
 
-//  div1.appendChild(component2());
-
-//  };
  console.log ("Hello, earthling")
