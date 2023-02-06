@@ -10,13 +10,13 @@ const menu = () => {
     
     function componentH2() {
      const headline = document.createElement("h2");
-     headline.textContent = "Soup of Noodles and Muscles";
+     headline.textContent = "Soup of Noodles, Muscles, and Vegetables";
      return headline;
     }
     elementDiv1.appendChild(componentH2());
    
     function componentDiv1() { 
-     const textNodeForDiv1 = document.createTextNode("Mike invites you to enjoy a healthy meal with loved ones at his restaurant. All colors, ages, genders are welcome. Tasty food, healthy food, and a comfortable, safe space to relax.");
+     const textNodeForDiv1 = document.createTextNode("Heartwarming chicken broth with tasty noodles, hearty chicken muscles chunks and vegetables of a wide array of colors and flavors");
      return elementDiv1.appendChild(textNodeForDiv1);
     }
     elementDiv1.appendChild(componentDiv1());
