@@ -5,6 +5,6 @@ import { contact } from './contact';
 
 
 
-pageLoad();
+// pageLoad();
 menu();
-contact();
+// contact();

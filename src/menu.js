@@ -1,6 +1,38 @@
+import { pageLoad } from "./page-load";
+
 const menu = () => {
     const elementDiv1 = document.getElementById("content");
     
+    function componentTabDiv1() {
+     const tabDiv1 = document.createElement("div");
+     tabDiv1.textContent = "Home";
+     tabDiv1.addEventListener("click", () => {
+      tabDiv1.style.color = "red";
+      while (elementDiv1.hasChildNodes()) {
+        elementDiv1.removeChild(elementDiv1.firstChild);
+      };
+      pageLoad();
+     });
+    return tabDiv1;
+    }
+    elementDiv1.appendChild(componentTabDiv1());
+       
+    function componentTabDiv2() {
+     const tabDiv2 = document.createElement("div");
+     tabDiv2.textContent = "Menu";
+     return tabDiv2;
+    }
+    elementDiv1.appendChild(componentTabDiv2());
+       
+    function componentTabDiv3() {
+     const tabDiv3 = document.createElement("div");
+     tabDiv3.textContent = "Contact";
+    return tabDiv3;
+    }
+    elementDiv1.appendChild(componentTabDiv3());
+       
+       
+
     function componentH1() {
      const headline = document.createElement("h1");
      headline.textContent = "Menu";
