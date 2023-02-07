@@ -1,4 +1,5 @@
 import { pageLoad } from "./page-load";
+import { contact } from "./contact";
 
 const menu = () => {
     const elementDiv1 = document.getElementById("content");
@@ -27,6 +28,13 @@ const menu = () => {
     function componentTabDiv3() {
      const tabDiv3 = document.createElement("div");
      tabDiv3.textContent = "Contact";
+     tabDiv3.addEventListener("click", () => {
+      tabDiv3.style.color = "red";
+      while (elementDiv1.hasChildNodes()) {
+       elementDiv1.removeChild(elementDiv1.firstChild);
+       };
+      contact();
+     });
     return tabDiv3;
     }
     elementDiv1.appendChild(componentTabDiv3());
