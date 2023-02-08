@@ -94,7 +94,7 @@ const contact = () => {
        elementDiv1.appendChild(componentH24());
          
        function componentDiv14() { 
-        const textNodeForDiv1 = document.createTextNode("We acknowledge that our restaurant provides restauration on unceded indigenous lands. We hereby express our respect and gratitude to the people who have been maintaining and continue to maintain the health, vitality, and sustainability of local ecosystems.");
+        const textNodeForDiv1 = document.createTextNode("We acknowledge that our restaurant provides restauration on unceded indigenous lands. We hereby express our respect and gratitude to the people who have been contributing and continue to contribute to the maintenance of the health, vitality, and sustainability of local ecosystems and global biodiversity.");
         return elementDiv1.appendChild(textNodeForDiv1);
        }
        elementDiv1.appendChild(componentDiv14());
