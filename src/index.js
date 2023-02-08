@@ -1,10 +1,10 @@
 import { pageLoad } from './page-load';
-import { menu } from './menu';
-import { contact } from './contact';
+// import { menu } from './menu';
+// import { contact } from './contact';
 
 
 
 
-// pageLoad();
-menu();
+pageLoad();
+// menu();
 // contact();
